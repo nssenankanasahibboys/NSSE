@@ -17,7 +17,7 @@ export const NsseLogo: React.FC<NsseLogoProps> = ({ variant = 'default', classNa
       } ${className}`}
     >
       <img
-        src="/assets/aistudio/image_95e30746.png"
+        src="/assets/aistudio/nsse_logo_crest.png"
         alt="Nawaz Sharif School of Eminence official crest logo"
         className="w-full h-full object-contain"
         decoding="async"

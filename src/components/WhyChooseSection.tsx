@@ -85,7 +85,7 @@ export const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({ onNavigateCo
           <Reveal delay={0.05} className="lg:col-span-7">
             <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden border border-[#202820]/10 shadow-[0_20px_50px_-18px_rgba(0,45,22,0.12)] bg-[#003D1F]">
               <ResilientImage
-                src="/src/assets/images/nsse_smartboard_wall_clean_1795344138970.jpg"
+                src="/assets/aistudio/nsse_smartboard_wall_clean_1795344138970_e3e3d310.jpg"
                 alt="Interactive smart board mounted inside a classroom at Nawaz Sharif School of Eminence"
                 className="w-full h-full object-cover object-center"
               />
