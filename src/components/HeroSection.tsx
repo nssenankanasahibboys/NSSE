@@ -23,21 +23,36 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigateContact }) =
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           {/* Left Editorial Column */}
           <div className="lg:col-span-6 flex flex-col justify-center py-2 sm:py-4">
-            {/* Framed Admissions Headline Area with NSSE Green Background */}
-            <div className="self-start rounded-2xl border-[1.5px] border-[#006B35] bg-[#0F5A1E] backdrop-blur-md px-5 py-4 sm:px-6 sm:py-5 shadow-[0_10px_28px_-14px_rgba(0,107,53,0.18)]">
-              <h1 className="font-display font-semibold tracking-tight text-white text-[clamp(2.1rem,3.8vw,3.3rem)] leading-[1.1] [text-wrap:balance]">
-                Admissions Open
-                <span className="block mt-1.5 text-[#8CCB20] text-[clamp(1.3rem,2.1vw,1.85rem)] font-medium leading-snug">
-                  Limited Seats · Limited Time
-                </span>
-              </h1>
+            {/* Layered NSSE Emerald Liquid Glass Admissions Frame */}
+            <div className="relative w-full max-w-xl overflow-hidden rounded-2xl bg-[#00552B] border border-[#003D1F]/30 px-6 py-5 sm:px-7 sm:py-6 shadow-[0_20px_44px_-18px_rgba(0,61,31,0.42),inset_0_1px_0_rgba(255,255,255,0.22)]">
+              <div
+                aria-hidden="true"
+                className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_#006B35_0%,_transparent_65%)] opacity-90"
+              />
+              <div
+                aria-hidden="true"
+                className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_rgba(140,203,32,0.14),_transparent_55%)]"
+              />
+              <div className="relative">
+                <h1 className="font-display font-semibold tracking-[-0.015em] text-white text-[clamp(2.2rem,3.9vw,3.3rem)] leading-[1.06] [text-wrap:balance]">
+                  Admissions Open
+                </h1>
+                <div className="mt-4 pt-3.5 border-t border-white/15 flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
+                  <p className="font-sans text-sm sm:text-[15px] font-semibold tracking-[0.02em] text-[#8CCB20]">
+                    Limited Seats · Limited Time
+                  </p>
+                  <span className="font-sans text-[13px] font-medium text-white/80">
+                    Zero Tuition Fees
+                  </span>
+                </div>
+              </div>
             </div>
 
-            <p className="mt-6 font-display text-xl sm:text-2xl font-medium text-[#006B35] leading-snug max-w-xl [text-wrap:balance]">
+            <p className="mt-7 font-display text-2xl sm:text-[1.65rem] font-medium text-[#202820] leading-snug max-w-xl [text-wrap:balance]">
               Give Your Child the Opportunity to Shine.
             </p>
 
-            <p className="mt-4 text-base sm:text-[17px] text-[#202820]/75 leading-relaxed max-w-xl">
+            <p className="mt-3.5 text-base sm:text-[17px] text-[#202820]/75 leading-relaxed max-w-xl">
               Free quality education at Nawaz Sharif School of Eminence, Nankana Sahib — building a
               brighter future through equal opportunities and a learning environment where every
               child matters.
