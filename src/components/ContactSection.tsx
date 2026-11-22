@@ -59,15 +59,6 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ ctaButtonRef }) 
                     <p className="mt-1 text-[15px] font-medium text-[#202820]">
                       2-Km Mangtanwala Road, Nankana Sahib, Pakistan.
                     </p>
-                    <a
-                      href={CAMPUS_MAP_URL}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-2 inline-flex items-center gap-1.5 text-sm font-medium text-[#006B35] hover:text-[#00552B] underline underline-offset-4 decoration-[#006B35]/35 hover:decoration-[#00552B] transition-colors"
-                    >
-                      <span>CPJP+2M Nankana Sahib, Pakistan</span>
-                      <ExternalLink className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
-                    </a>
                   </div>
                 </div>
 

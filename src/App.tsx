@@ -4,6 +4,7 @@
  */
 
 import { useCallback, useRef } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { AboutSection } from './components/AboutSection';
@@ -36,6 +37,7 @@ export default function App() {
         <ContactSection ctaButtonRef={contactCtaRef} />
       </main>
       <Footer onNavigateContact={handleNavigateContact} />
+      <Analytics />
     </div>
   );
 }
