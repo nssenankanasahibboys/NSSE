@@ -53,15 +53,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigateContact }) => {
           {/* Zone 1: Brand Title + Official Logo (single line, no descriptor/pill clutter) */}
           <a
             href="#home"
-            className="flex items-center gap-3 whitespace-nowrap shrink-0 rounded-lg focus-visible:outline-2 focus-visible:outline-[#006B35]"
+            className="flex items-center gap-2.5 sm:gap-3 min-w-0 whitespace-nowrap sm:shrink-0 rounded-lg focus-visible:outline-2 focus-visible:outline-[#006B35]"
             aria-label="Nawaz Sharif School of Eminence Home"
           >
-            <NsseLogo className="w-9 h-9 shrink-0" />
-            <span className="font-display font-semibold tracking-tight text-[#202820] text-base hidden sm:inline">
+            <NsseLogo className="w-8 h-8 sm:w-9 sm:h-9 shrink-0" />
+            <span className="font-display font-semibold tracking-tight text-[#202820] text-[13px] min-[400px]:text-sm sm:text-base truncate">
               Nawaz Sharif School of Eminence
-            </span>
-            <span className="font-display font-semibold tracking-tight text-[#202820] text-base sm:hidden">
-              NSSE
             </span>
           </a>
 
