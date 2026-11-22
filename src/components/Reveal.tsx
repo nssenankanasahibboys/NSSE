@@ -16,9 +16,9 @@ export const Reveal: React.FC<RevealProps> = ({ children, delay = 0, className =
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 18 }}
+      initial={{ opacity: 0, y: 16 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.14 }}
+      viewport={{ once: true, amount: 'some' }}
       transition={{
         duration: 0.55,
         delay,

@@ -10,7 +10,7 @@ const FOOTER_LINKS = [
   { label: 'Home', href: '#home' },
   { label: 'About Us', href: '#about' },
   { label: 'Why Choose NSSE', href: '#why-choose' },
-  { label: 'Admissions', href: '#admissions' },
+  { label: 'Admission', href: '#admissions' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -69,7 +69,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigateContact }) => {
             </p>
             <div className="space-y-2 text-sm text-white/85">
               <p className="text-white font-medium">
-                2-Km Mangtanwala Road, Nankana Sahib, Pakistan.
+                2-km Mangtanwala Road, Nankana Sahib, Pakistan
               </p>
               <p>
                 Location:{' '}

@@ -21,13 +21,13 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ ctaButtonRef }) 
         <Reveal>
           <div className="max-w-2xl">
             <p className="text-xs font-semibold tracking-wider uppercase text-[#006B35]">
-              Contact &amp; Admissions
+              Contact &amp; Admission
             </p>
             <h2 className="mt-3 font-display text-3xl sm:text-4xl lg:text-[2.6rem] font-semibold tracking-tight text-[#202820] leading-[1.15] [text-wrap:balance]">
               Let&apos;s Start a Conversation.
             </h2>
             <p className="mt-4 text-base sm:text-[17px] text-[#202820]/75 leading-relaxed">
-              Have questions about admissions? Our team is here to help. Contact us to learn more
+              Have questions about admission? Our team is here to help. Contact us to learn more
               about the admission process and available opportunities.
             </p>
           </div>
@@ -57,7 +57,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ ctaButtonRef }) 
                       Campus Location
                     </p>
                     <p className="mt-1 text-[15px] font-medium text-[#202820]">
-                      2-Km Mangtanwala Road, Nankana Sahib, Pakistan.
+                      2-km Mangtanwala Road, Nankana Sahib, Pakistan
                     </p>
                   </div>
                 </div>
@@ -142,7 +142,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ ctaButtonRef }) 
                 </div>
 
                 <h3 className="font-display text-2xl sm:text-3xl font-semibold tracking-tight text-white leading-snug [text-wrap:balance]">
-                  Apply Online for Admissions at NSSE
+                  Apply Online for Admission at NSSE
                 </h3>
 
                 <p className="text-base text-white/80 leading-relaxed max-w-lg">

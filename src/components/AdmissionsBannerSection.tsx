@@ -29,11 +29,11 @@ export const AdmissionsBannerSection: React.FC<AdmissionsBannerSectionProps> = (
           </div>
 
           <h2 className="mt-6 font-display text-3xl sm:text-5xl lg:text-[3.2rem] font-semibold tracking-tight text-white leading-[1.1] [text-wrap:balance]">
-            Quality Education. Endless Possibilities. Zero Tuition Fees.
+            Quality Education. Endless Possibilities. Zero Tuition Fee.
           </h2>
 
           <p className="mt-5 text-lg sm:text-xl font-medium text-white/90 max-w-2xl mx-auto leading-snug [text-wrap:balance]">
-            Admissions are now open for a limited time. Limited seats available.
+            Admission is now open for a limited time. Limited seats are available.
           </p>
 
           <div className="mt-9 flex justify-center">

@@ -46,13 +46,13 @@ export const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({ onNavigateCo
               <div className="lg:col-span-8 space-y-5">
                 <div className="inline-flex flex-wrap items-center gap-x-2.5 gap-y-1 liquid-glass-emerald rounded-xl px-4 py-2">
                   <span className="text-xs font-semibold tracking-wider uppercase text-[#8CCB20]">
-                    01 · Zero Tuition Fees
+                    01 · Zero Tuition Fee
                   </span>
                   <span aria-hidden="true" className="text-white/35 text-xs">
                     ·
                   </span>
                   <span className="text-xs font-semibold tracking-wider uppercase text-white">
-                    Admissions Open · Limited Seats
+                    Admission Open · Limited Seats
                   </span>
                 </div>
 
@@ -61,8 +61,8 @@ export const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({ onNavigateCo
                 </h3>
 
                 <p className="text-base sm:text-lg text-white/85 leading-relaxed max-w-2xl">
-                  Education provided free of cost, making quality learning accessible to students.
-                  Admissions are now open for a limited time, with limited seats available.
+                  Education is provided free of cost, making quality learning accessible to every
+                  student. Admission is now open for a limited time, with limited seats available.
                 </p>
               </div>
 
@@ -83,17 +83,15 @@ export const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({ onNavigateCo
         {/* 2 & 3. Interactive Smart Boards + STEM-Based Education */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           <Reveal delay={0.05} className="lg:col-span-7">
-            <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden border border-[#202820]/10 shadow-[0_20px_50px_-18px_rgba(0,45,22,0.12)] bg-[#003D1F]">
-              <ResilientImage
-                src="/assets/aistudio/nsse_smartboard_wall_clean_1795344138970_e3e3d310.jpg"
-                alt="Interactive smart board mounted inside a classroom at Nawaz Sharif School of Eminence"
-                className="w-full h-full object-cover object-center"
-              />
-              <div
-                aria-hidden="true"
-                className="pointer-events-none absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[#002814]/45 to-transparent"
-              />
-              <div className="absolute bottom-4 left-4 right-4 sm:bottom-5 sm:left-5 sm:right-auto sm:max-w-xs liquid-glass-overlay rounded-2xl px-4 py-3">
+            <div className="rounded-3xl overflow-hidden border border-[#202820]/10 shadow-[0_20px_50px_-18px_rgba(0,45,22,0.12)] bg-white">
+              <div className="relative w-full aspect-[16/9] bg-[#003D1F]">
+                <ResilientImage
+                  src="/assets/aistudio/nsse_smartboard_wall_clean_1795344138970_e3e3d310.jpg"
+                  alt="Interactive smart board mounted inside a classroom at Nawaz Sharif School of Eminence"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
+              <div className="px-5 py-3.5 sm:px-6 sm:py-4 bg-white border-t border-[#202820]/8">
                 <p className="text-xs font-semibold tracking-wider uppercase text-[#006B35]">
                   Modern Classroom Technology
                 </p>
@@ -114,7 +112,7 @@ export const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({ onNavigateCo
                   Interactive Smart Boards
                 </h3>
                 <p className="mt-2.5 text-base text-[#202820]/75 leading-relaxed">
-                  Modern interactive smart boards that make classroom learning engaging and
+                  Modern interactive smart boards make classroom learning engaging and
                   technology-driven.
                 </p>
               </div>
@@ -129,7 +127,7 @@ export const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({ onNavigateCo
                   STEM-Based Education
                 </h3>
                 <p className="mt-2.5 text-base text-[#202820]/75 leading-relaxed">
-                  Practical, activity-based learning focused on Science, Technology, Engineering,
+                  Practical, activity-based learning focuses on Science, Technology, Engineering,
                   and Mathematics.
                 </p>
               </div>
@@ -150,7 +148,7 @@ export const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({ onNavigateCo
                 </h3>
                 <p className="mt-3 text-base text-[#202820]/75 leading-relaxed">
                   Modern learning facilities for Computer Science, Biology, Chemistry, Physics, and
-                  Robotics, encouraging practical exploration and innovation.
+                  Robotics encourage practical exploration and innovation.
                 </p>
               </div>
 
@@ -179,17 +177,15 @@ export const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({ onNavigateCo
         {/* 5 & 6. Playground & Sports + Green and Healthy Campus */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           <Reveal delay={0.05} className="lg:col-span-7">
-            <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden border border-[#202820]/10 shadow-[0_20px_50px_-18px_rgba(0,45,22,0.12)] bg-white">
-              <ResilientImage
-                src="/assets/aistudio/open_air_campus_cropped.jpg"
-                alt="Green campus lawns, trees, and brick walkway at Nawaz Sharif School of Eminence"
-                className="w-full h-full object-cover object-center"
-              />
-              <div
-                aria-hidden="true"
-                className="pointer-events-none absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[#002814]/45 to-transparent"
-              />
-              <div className="absolute bottom-4 left-4 right-4 sm:bottom-5 sm:left-5 sm:right-auto sm:max-w-xs liquid-glass-overlay rounded-2xl px-4 py-3">
+            <div className="rounded-3xl overflow-hidden border border-[#202820]/10 shadow-[0_20px_50px_-18px_rgba(0,45,22,0.12)] bg-white">
+              <div className="relative w-full aspect-[4/3] bg-[#EDF4EC]">
+                <ResilientImage
+                  src="/assets/aistudio/open_air_campus_cropped.jpg"
+                  alt="Green campus lawns, trees, and brick walkway at Nawaz Sharif School of Eminence"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
+              <div className="px-5 py-3.5 sm:px-6 sm:py-4 bg-white border-t border-[#202820]/8">
                 <p className="text-xs font-semibold tracking-wider uppercase text-[#006B35]">
                   Open-Air Campus
                 </p>
@@ -210,8 +206,8 @@ export const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({ onNavigateCo
                   Playground &amp; Sports
                 </h3>
                 <p className="mt-2.5 text-base text-[#202820]/75 leading-relaxed">
-                  Dedicated outdoor spaces where students can play, participate in physical
-                  activities, and develop teamwork.
+                  Dedicated outdoor spaces let students play, participate in physical activities,
+                  and develop teamwork.
                 </p>
               </div>
             </Reveal>
@@ -225,7 +221,8 @@ export const WhyChooseSection: React.FC<WhyChooseSectionProps> = ({ onNavigateCo
                   Green and Healthy Campus
                 </h3>
                 <p className="mt-2.5 text-base text-[#202820]/75 leading-relaxed">
-                  Greenery, open spaces, and a welcoming environment that makes learning enjoyable.
+                  Greenery, open spaces, and a welcoming environment make everyday learning
+                  enjoyable.
                 </p>
               </div>
             </Reveal>

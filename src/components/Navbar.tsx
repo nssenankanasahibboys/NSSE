@@ -10,7 +10,7 @@ const NAV_LINKS = [
   { label: 'Home', href: '#home' },
   { label: 'About Us', href: '#about' },
   { label: 'Why Choose NSSE', href: '#why-choose' },
-  { label: 'Admissions', href: '#admissions' },
+  { label: 'Admission', href: '#admissions' },
   { label: 'Contact', href: '#contact' },
 ];
 
